@@ -1,0 +1,32 @@
+### Go ###
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.o
+*.a
+*.out
+*.dll
+*.so
+*.dylib
+
+# Ignore Mac binaries without file extensions
+hello
+
+# Ignore build directories
+/bin/
+/pkg/
+/vendor/
+/postgres-data/
+
+# Logs
+log.txt
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
